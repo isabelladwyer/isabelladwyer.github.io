@@ -1,0 +1,225 @@
+body {
+  font-family: 'Rokkitt', serif;
+  font-size: 12pt;
+  width: 60%;
+  margin: 0 auto;
+}
+
+
+.about {
+  width: 100%;
+  height: 25%;
+  border: 2px red solid;
+  padding: 2%;
+  margin: 25px;
+  box-shadow: 5px 10px black;
+  background-color: rgba(255,0,0,0.5);
+  box-sizing: border-box;
+  border: 12px;
+  box-shadow: gray;
+}
+
+i {
+  font-size: 2em;
+  color: white;
+  position: absolute;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both
+  visibility:visible;
+}
+
+nav > a {
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 5%;
+}
+
+ul,li {
+  list-style-type: none;
+  display: inline-block;
+  /* padding-left: 5%; */
+  padding-right: 3%;
+  text-align: right;
+}
+
+ul {
+  width: 80%;
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: cyan;
+}
+
+h2 > a {
+  size: 90pt;
+}
+
+p > a {
+  size: 50pt;
+}
+
+.profile {
+  float: right;
+  width: 50%;
+  margin-left: 5%
+}
+
+.profile > img {
+  width:100%
+}
+
+.logo {
+  width: 35%;
+}
+
+.logo > img{
+  width: 100%
+}
+
+
+.web {
+  float:left;
+  width: 50%;
+  margin-right: 3%;
+  margin-bottom: 3%;
+}
+
+.web > img {
+  Width: 100%;
+}
+
+.bookcover {
+  float: right;
+  width: 47%;
+}
+
+.bookcover > img {
+  width: 100%;
+}
+
+.bookpage1 {
+  float: right;
+  width: 47%;
+}
+
+.bookpage1 > img {
+  width: 100%
+}
+
+.bookpage2 {
+  float: right;
+  width: 47%;
+}
+
+.bookpage2 > img {
+  width: 100%
+}
+
+.collectionp {
+  margin-right: 5%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  width: 47%;
+}
+
+.album1 {
+  float:right;
+  width: 47.5%;
+}
+
+.album1 > img {
+  width: 100%
+}
+
+.album2 {
+  width: 47.5%;
+}
+
+.album2 > img {
+  width: 100%
+}
+
+.albump {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.videocover {
+  float: left;
+  width: 40%;
+  margin-right: 5%;
+  margin-bottom: 5%
+}
+
+.videocover > video, iframe {
+  width: 100%;
+}
+
+.tablecover {
+  width: 70%;
+  margin-bottom: 10%;
+  margin-top: 5%
+}
+
+table {
+  background-color: lightgray;
+  width: 100%;
+  text-align: center;
+}
+
+tr,td {
+  padding: 1%;
+  text-align: center;
+}
+
+th {
+  background-color: lightgray;
+  padding: 1%;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  align-items: baseline;
+  width: 65%;
+  padding: 2%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 225, .5);
+}
+
+.newsletter {
+  background-image: url("../img/flowers.jpg");
+  background-size: contain;
+  height: 25vh;
+}
+
+.emailbox {
+  padding: 2%;
+  width: 65%;
+  margin-right: 5%;
+}
+
+.submitbutton {
+  padding: 2%;
+  width: 15%;
+}
+
+
+@media all and (min-width: 320px) and (max-width: 780px)
